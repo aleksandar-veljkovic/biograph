@@ -2,10 +2,14 @@
 ## Dependencies
 It is required to have Neo4J DBMS installed on your system before running the BioGraph services. You may find a community release of Neo4J [here](https://neo4j.com/download-center/#community)
 
+## Related repositories
+- [BioGraph Web UI repository](https://github.com/aleksandar-veljkovic/biograph-app)
+- [BioGraph Server repository](https://github.com/aleksandar-veljkovic/biograph-backend)
+
 ## Installation
 To setup the BioGraph services on your system, you should download the zip of this repository (<> Code > Download ZIP) and extract the downloaded archive in the folder of your choice. The selected folder will be your setup folder.
 
-### Setup
+### Steps
 - Go to folder `bin` and open the folder which corresponds with your current operating system. If you are running Linux or MacOS operative systems, you will have to add executable privileges to all files in `bin/linux` folder.
 - Run `win-setup.bat`, if you are using Windows, or `linux-setup.sh` if you are using Linux or MacOS.
 - After the setup has been complete, open the folder `biograph-backend/importers` and extract the `local-data.zip` archive in folder  `biograph-backend/importers`. You should now have a folder `local-data` with prepared initial data from the four datasets.
